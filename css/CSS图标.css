@@ -41,10 +41,24 @@ body {
 }
 
 .SJX {
+    position: relative;
     box-sizing: border-box;
     width: 0;
     height: 0;
     border: 100px;
     border-style: solid;
     border-color: transparent transparent red transparent;
+}
+
+.SJX::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -83px;
+    left: -90px;
+    width: 0;
+    height: 0;
+    border: 90px;
+    border-style: solid;
+    border-color: transparent transparent blue transparent;
 }
