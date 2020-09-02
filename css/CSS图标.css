@@ -39,3 +39,12 @@ body {
     height: 100px;
     background-color: blue;
 }
+
+.SJX {
+    box-sizing: border-box;
+    width: 0;
+    height: 0;
+    border: 100px;
+    border-style: solid;
+    border-color: transparent transparent red transparent;
+}
