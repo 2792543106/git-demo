@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration-line: none;
+    list-style-type: none;
+}
+
+body {
+    background-color: #f3e2d1;
+}
+
+.BMW {
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.BMW::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.BMW::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
