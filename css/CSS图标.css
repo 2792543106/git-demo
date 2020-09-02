@@ -62,3 +62,44 @@ body {
     border-style: solid;
     border-color: transparent transparent blue transparent;
 }
+
+.STOP {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: 8px solid black;
+    border-radius: 50%;
+}
+
+.STOP::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 18px;
+    border: 20px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+}
+
+.COTU {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: 8px solid black;
+    border-radius: 50%;
+}
+
+.COTU::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 11px;
+    left: 13px;
+    width: 10px;
+    height: 28px;
+    border: 7px;
+    border-style: solid;
+    border-top: black;
+    border-bottom: black;
+}
