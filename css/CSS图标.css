@@ -123,3 +123,23 @@ body {
     border-style: solid;
     border-color: transparent transparent transparent blue;
 }
+
+.BACK {
+    position: relative;
+    top: 20px;
+    left: 60px;
+    width: 100px;
+    height: 25px;
+    background-color: blue;
+}
+
+.BACK::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -17px;
+    left: -60px;
+    border: 30px;
+    border-style: solid;
+    border-color: transparent blue transparent transparent;
+}
