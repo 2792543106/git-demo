@@ -103,3 +103,23 @@ body {
     border-top: black;
     border-bottom: black;
 }
+
+.FORWORD {
+    position: relative;
+    top: 20px;
+    left: 0;
+    width: 100px;
+    height: 25px;
+    background-color: blue;
+}
+
+.FORWORD::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -17px;
+    left: 100px;
+    border: 30px;
+    border-style: solid;
+    border-color: transparent transparent transparent blue;
+}
